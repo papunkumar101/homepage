@@ -9,12 +9,16 @@
 $('.carousel.carousel-slider').carousel({
         fullWidth: true,
         indicators: true,
-        duration:2
-        
+    
       });
+      
  $(document).ready(function(){
     $('.fixed-action-btn').floatingActionButton();
   });
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+        
         
    
    
