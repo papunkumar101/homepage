@@ -9,8 +9,12 @@
 $('.carousel.carousel-slider').carousel({
         fullWidth: true,
         indicators: true,
-    
       });
+    autoplay();
+    function autoplay(){
+     $('.carousel').carousel('next');
+     setTimeout(autoplay,3000);
+    }
       
  $(document).ready(function(){
     $('.fixed-action-btn').floatingActionButton();
@@ -18,6 +22,11 @@ $('.carousel.carousel-slider').carousel({
   $(document).ready(function(){
     $('.sidenav').sidenav();
   });
+  /*____singin button ___*/
+    $(document).ready(function(){
+     $('.modal').modal();
+  });
+          
         
         
    
