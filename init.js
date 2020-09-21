@@ -22,11 +22,7 @@ $('.carousel.carousel-slider').carousel({
   $(document).ready(function(){
     $('.sidenav').sidenav();
   });
-  /*____singin button ___*/
-    $(document).ready(function(){
-     $('.modal').modal();
-  });
-          
+ 
         
         
    
